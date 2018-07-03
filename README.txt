@@ -10,3 +10,9 @@ git diff <commit_id>..<commit_id>  //gives the difference between the two versio
 git diff HEAD~1..HEAD //gives the difference between the last but one commit and the current commit 
 
 git log //gets all the commit made
+
+git checkout <file_name> //fetches the laetst file from the repository
+
+git reset --hard //resets all the code with the version in the repository
+
+git reset --soft HEAD~1 //restes the code to the previous version
