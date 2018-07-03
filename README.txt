@@ -49,3 +49,13 @@ git remote add origin https://github.com/senth542002/GitFundamentals.git
 git fetch; git merge origin/master -----------> git pull
 
 git push
+
+git tag <tag name>
+
+git tag -a <tag_name> -m <message>
+
+git tag -s --sign
+
+git tag -v //(verifies signature)
+
+git push --tags //pushes the tags to the remote repository
