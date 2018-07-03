@@ -20,3 +20,5 @@ git reset --soft HEAD~1 //restes the code to the previous version
 git clean -n //would warn you about the files which is going to be cleaned
 
 git clean -f //would clean the files
+
+files whoch you want to ignore commiting should be added as part of .gitignore file in the roor directory
