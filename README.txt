@@ -1,3 +1,5 @@
+Working with Local Git Repo
+---------------------------------------------------------
 git status // gets the status of the current git repository
 git add -u  //adds updated files
 
@@ -22,3 +24,24 @@ git clean -n //would warn you about the files which is going to be cleaned
 git clean -f //would clean the files
 
 files whoch you want to ignore commiting should be added as part of .gitignore file in the roor directory
+
+----------------------------------------------------------
+Working with Remote Git Repo
+----------------------------------------------------------
+
+git clone https://github.com/jquery/jquery.git
+
+git log --oneline| wc -l
+git log --oneline| graph
+git shortlog -sne  
+
+git show HEAD~1
+
+git protocols:
+
+https/http - 80/443 - Read-write
+git - 9418 - read only Anonymous only
+ssh - 22 - read-write SSH keys for auth
+file - n/a - read write local only
+
+git remote add origin https://github.com/senth542002/GitFundamentals.git
