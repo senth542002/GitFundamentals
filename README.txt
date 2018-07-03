@@ -45,3 +45,7 @@ ssh - 22 - read-write SSH keys for auth
 file - n/a - read write local only
 
 git remote add origin https://github.com/senth542002/GitFundamentals.git
+
+git fetch; git merge origin/master -----------> git pull
+
+git push
